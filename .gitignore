@@ -1,0 +1,53 @@
+# Build products
+build/
+build-codex/
+build-codex-mingw/
+bin/
+lib/
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# Local editor settings
+.vscode/
+
+# Runtime outputs and backups
+result/
+backup_before_*/
+example/**/example_out/
+example/**/postdecoder
+example/**/postppp
+example/**/rtdecoder
+example/**/rtppp
+*.log
+*.tag
+*.pos
+*.trace
+*.stec
+*.vtec
+*.B2bssr
+
+# Archives
+*.zip
+*.7z
+*.rar
+*.gz
+
+# Large GNSS sample/data files
+1/
+2017244/
+*.rnx
+*.obs
+*.nav
+*.sp3
+*.B2bBin
+*.clk
+*.CLK
+*.snx
+*.atx
+*.17o
+*.22o
+*.22I
